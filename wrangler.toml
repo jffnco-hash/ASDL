@@ -1,0 +1,19 @@
+name = "asdl"
+main = "worker.js"
+compatibility_date = "2026-11-05"
+workers_dev = true
+preview_urls = false
+
+[observability]
+enabled = true
+
+[[d1_databases]]
+binding = "DB"
+database_name = "adwmx"
+database_id = "367162b1-3028-47eb-9128-2f78aeec707a"
+
+[vars]
+# رقم المطور: له لوحة الإدارة وحذف الحسابات وعلامة التوثيق تلقائياً.
+DEVELOPER_PHONE = "01114030189"
+# "true" يعرض سبب الخطأ في التطبيق. غيّره لـ "false" بعد ما كل شي يشتغل.
+DEBUG = "true"
